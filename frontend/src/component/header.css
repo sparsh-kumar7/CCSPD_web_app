@@ -1,0 +1,17 @@
+.navbar-fixed-top{
+    /* position: relative !important; */
+    height: 10.2vh;
+}
+
+.navbar-nav{
+    width: 100%
+}
+.navbar-nav li:hover {
+    background-color: transparent;
+}
+.relative{
+    position: relative !important;
+}
+.stickyclass{
+    position: fixed;
+}

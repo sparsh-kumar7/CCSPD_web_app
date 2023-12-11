@@ -1,0 +1,58 @@
+export const PDQuestions = [
+    {
+        prompt: "Which of the following is an important trait for personality development?",
+        optionA: "Introversion",
+        optionB: "Arrogance",
+        optionC: "Humility",
+        optionD: "Apathy",
+        answer: "optionC",
+    },
+    {
+        prompt: "Which of the following is an example of positive self-talk?",
+        optionA: "\"I can't do this\"",
+        optionB: "\"I'm not good enough for this\"",
+        optionC: "\"I'm will give it my best shot\"",
+        optionD: "\"I'll never be successful\"",
+        answer: "optionC",
+    },
+    {
+        prompt: "Which of the following is an example of self-awareness?",
+        optionA: "Ignore your emotions",
+        optionB: "Be unaware of your weaknesses",
+        optionC: "Know your own thoughts",
+        optionD: "Ignore others\' perspective",
+        answer: "optionC",
+    },
+    {
+        prompt: "Which of the following is an example of assertiveness?",
+        optionA: "Allow others to take advantage",
+        optionB: "Being overly confrontational",
+        optionC: "Standing up for yourself",
+        optionD: "Avoiding conflict at all costs",
+        answer: "optionC",
+    },
+    {
+        prompt: "Which of the following is an example of empathy?",
+        optionA: "Dismiss others\' emotions",
+        optionB: "Understand the feelings of others",
+        optionC: "Belittling others\' experiences",
+        optionD: "Not considering others\' opinions",
+        answer: "optionB",
+    },
+    {
+        prompt: "Which of the following is an example of effective communication?",
+        optionA: "Interrupting others while speaking",
+        optionB: "Failing to listen to others",
+        optionC: "Speaking clearly and respectfully",
+        optionD: "Using complicated language",
+        answer: "optionC",
+    },
+    {
+        prompt: "Which of the following is an example of resilience?",
+        optionA: "Giving up after a failure",
+        optionB: "Blaming others for your mistakes",
+        optionC: "Bouncing back from setbacks",
+        optionD: "Refusing to try new things",
+        answer: "optionC",
+    }
+];

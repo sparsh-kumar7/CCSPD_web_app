@@ -1,0 +1,170 @@
+.resources_main{
+    height: 89.8vh !important;
+    margin-top: 0px !important;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0%;
+    font-family: "Roboto Slab", serif !important;
+    
+}
+
+.sideNavBar{
+    width: 20vw;
+    background-color: #E7E9EB;
+    margin-top: 0%;
+    overflow: auto;
+    /* position: sticky; */
+}
+
+.contentContainer{
+    width: 80vw;
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+.Headings{
+    padding-left: 20px;
+    margin-top: 30px;
+}
+
+.subHeading{
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.subHeadingText{
+    font-size: large;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+a{
+    color: black;
+}
+
+.subHeading:hover{
+    background-color: hsl(51, 82%, 64%);
+    text-decoration: none;
+}
+
+.communicationHeading{
+    font: bolder;
+}
+
+h4{
+    font-size: 18px;
+    margin-bottom: 24px;
+    text-align: center;
+    border-bottom: 1px dotted black;
+    padding-bottom: 10px;
+    margin-right: 15px;
+}
+.buttonBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navButton{
+    width: 20%;
+}
+
+
+ 
+
+.quiz{
+    text-align: center;
+  }
+
+  .quiz h1{
+    display: inline;
+    border-bottom: 5px solid #f9dd94;
+  }
+  
+  .question-card {
+    /* Center the div  */
+    margin: 0 auto;
+  
+    /* Dimensions  */
+    width: 80%; /* Can be in percentage also. */
+    height: auto;
+  
+    /* Visual  */
+    background-color: gray;
+    padding: 16px;
+    border-radius: 16px;
+    color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+      rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  }
+  
+  .quiz ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .quiz li {
+    margin-top: 8px;
+    background-color: darkgray;
+    padding: 16px;
+    border: 3px solid white;
+    border-radius: 20px;
+    font-size: 20px;
+    /* margin-right: 50px; */
+  }
+
+  .quiz>li:hover{
+    cursor: pointer;
+    background-color: #f1b316;
+  }
+  
+  .question-text {
+    color: white;
+    font-size: 24px;
+  }
+  
+  /* Final Results  */
+  
+  .final-results {
+    /* Center the div  */
+    margin: 0 auto;
+  
+    /* Dimensions  */
+    width: 50%; /* Can be in percentage also. */
+    height: auto;
+    margin-top: 64px;
+  
+    /* Visual  */
+    background-color: gray;
+    padding: 16px;
+    border-radius: 16px;
+    color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+      rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  }
+  
+  .quiz button {
+    background-color: #f1b316; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+  
+    border-radius: 24px;
+  }

@@ -1,0 +1,103 @@
+.card{
+    width: 50vw;
+    /* border: 1px dotted rgba(0, 0, 0, 0.436); */
+    padding: 20px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.titleClass{
+    text-align: left;
+    font-size: 16px;
+}
+
+.typingArea{
+    margin-top: 5px;
+    text-align: left;
+    font-family: "Roboto Slab", serif !important;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.755);
+    resize: none;
+}
+
+.btn-primary{
+    width: 200px;
+    margin: 10px;
+    margin-left: 0;
+}
+
+.discussionTrack{
+    height: 55.2vh;
+    /* background-color: rgba(0, 0, 0, 0.061); */
+    width: 80vw;
+    margin-left: 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+}
+
+.panel{
+    width: 80%;
+    margin-top: 20px;
+}
+
+.input {
+    display: flex;
+    border: none;
+    align-items: center;
+    justify-items: flex-start;
+    gap: 2rem;
+}
+
+.input input {
+width: 50%;
+padding: 8px;
+margin-bottom: 10px;
+border: 1px solid #ddd;
+border-radius: 4px;
+box-sizing: border-box;
+font-size: 14px;
+}
+
+.input svg {
+margin-left: 8px;
+cursor: pointer;
+fill: blue;
+height: 20px;
+}
+
+.reply-container {
+display: flex;
+flex-direction: column;
+}
+
+.reply {
+display: flex;
+flex-direction: column;
+margin-bottom: 10px;
+}
+
+.reply-single {
+display: flex;
+margin-bottom: 10px;
+align-items: center;
+justify-content: flex-start;
+gap: 2rem;
+}
+
+.user-name {
+font-weight: bold;
+margin-bottom: 4px;
+color: blue;
+}
+
+.reply-content {
+word-break: break-word;
+background-color: #f0f0f0;
+padding: 10px;
+border-radius: 8px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+max-width: 400px;
+}

@@ -1,0 +1,39 @@
+.leaderboard {
+  max-width: 450px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #dff0d8;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(52, 152, 219, 0.2);
+  background-color: #dff0d8;
+}
+
+.header {
+  text-align: center;
+  color: #2c3e50;
+}
+
+.user-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.user-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  padding: 15px;
+  background-color: #efd236;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(52, 152, 219, 0.1);
+}
+
+.username {
+  font-weight: bold;
+  color: #fff;
+}
+
+.score {
+  color: #fff;
+}
